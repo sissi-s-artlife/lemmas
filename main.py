@@ -38,7 +38,7 @@ def get_wordnet_pos(treebank_tag):
         return wordnet.NOUN  # Default to noun if POS tag not found
 
 # Sample text
-text = input("Insert the text you want to lemmatize and clean the determiners off: ")
+text = input("Insert the text you want to lemmatize and clean off: ")
 
 # Tokenize the text into words
 words = nltk.word_tokenize(text)
