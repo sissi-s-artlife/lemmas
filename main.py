@@ -21,7 +21,7 @@ nltk.download("stopwords", quiet=True)
 lemmatizer = WordNetLemmatizer()
 stop_words = set(stopwords.words("english"))
 
-# Define a list of common English determiners
+# Define a list of common English determiners and some possesive pronouns
 determiners = ["the", "a", "an", "this", "that", "these", "those", "my", "your", "his", "her", "its", "our", "their"]
 
 # Define a function to convert NLTK POS tags to WordNet POS tags
